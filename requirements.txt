@@ -1,0 +1,4 @@
+cloudsync
+cloudsync_onedrive
+pytest
+python-dotenv==0.14.0

@@ -1,0 +1,7 @@
+LOCAL_ROOT = C:/Temp
+REMOTE_ROOT = /TEST
+FILES_MAPPING = "[
+    ('test', 'test.txt'),
+    ('test1', 'test1.txt'),
+    ('test2', 'test2.txt')
+]"
