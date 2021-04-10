@@ -24,7 +24,7 @@ def upload(rtoken, atoken, dot_config=None):
 
     creds = {'refresh_token': rtoken, 'access_token': atoken}
     if not rtoken or not atoken:
-        creds = prov.authenticate()
+        creds = remote.authenticate()
         print(creds) #save creds somewhere
         
     remote.connect(creds)

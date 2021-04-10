@@ -19,5 +19,4 @@ pip install -r requirements.txt
 
 
 # UPCOMMING: 
-* Utilizing programatically way to authenticate Drive login
 * Implementing Google Drive
